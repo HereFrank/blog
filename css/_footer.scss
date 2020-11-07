@@ -1,0 +1,33 @@
+footer {
+    .menu {
+        background: $azul_primario;
+        ul {
+            list-style: none;
+            //Eliminando margen por defecto del elemento ul
+            margin: 0;
+            padding: 0;
+            li {
+                display: inline-block;
+                a {
+                    color: #fff;
+                    display: inline-block;
+                    padding: 1em 1.25em;
+                    font-size: .87em;
+                    &:hover {
+                        text-decoration: none;
+                        background: $azul_secundario;
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        p {
+            font-size: .87em;
+            color: #000;
+            padding: .625em;
+            text-align: center;
+            margin: 0;
+        }
+    }
+}

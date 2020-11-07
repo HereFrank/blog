@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    header {
+        .logo {
+            text-align: center;
+        }
+        .redes-sociales {
+            display: none;
+        }
+        .menu {
+            ul {
+                text-align: center;
+            }
+        }
+    }
+    .container {
+        max-width: 100%;
+    }
+    main {
+        .titulo-seccion > div {
+            padding: 0 0.9375em; //0 15px
+        }
+        .posts .post {
+            .contenedor .info .extracto {
+                height: auto;
+            }
+            &:nth-child(2n+1) {
+                padding-left: 0.9375em; //15px                
+            }
+			&:nth-child(2n) {
+                padding-right: 0.9375em; //15px                   
+            }
+			
+        }
+    }
+    aside {
+        display: none;
+    }
+    
+    footer {
+        .menu {
+            ul {
+                text-align: center;
+            }
+        }
+    }
+}
