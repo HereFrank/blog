@@ -22,16 +22,13 @@ header .logo {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
 }
-
 header .logo a {
   display: inline-block;
 }
-
 header .redes-sociales {
   text-align: right;
   line-height: 5em;
 }
-
 header .redes-sociales a {
   border-radius: 50%;
   width: 2.5em;
@@ -43,41 +40,33 @@ header .redes-sociales a {
   color: #fff;
   margin-left: 1.25em;
 }
-
 header .redes-sociales a.youtube {
   background: #c05554;
 }
-
 header .redes-sociales a.twitter {
   background: #55acee;
 }
-
 header .redes-sociales a.facebook {
   background: #3b5998;
 }
-
 header .menu {
   background: #5f6ad4;
   margin-bottom: 1.25em;
 }
-
 header .menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 header .menu ul li {
   display: inline-block;
 }
-
 header .menu ul li a {
   color: #fff;
   display: inline-block;
   padding: 1em 1.25em;
-  font-size: .87em;
+  font-size: 0.87em;
 }
-
 header .menu ul li a:hover {
   text-decoration: none;
   background: #7780da;
@@ -98,62 +87,49 @@ aside .titulo-seccion h3 {
 main .titulo-seccion > div {
   padding: 0;
 }
-
 main .single-post .post {
   padding: 0;
 }
-
 main .single-post .post .categorias {
   margin-bottom: 1.875em;
 }
-
 main .single-post .post .texto {
   color: #292929;
   font-size: 1em;
   line-height: 1.75em;
 }
-
 main .single-post .post .texto p {
   margin-bottom: 1em;
 }
-
 main .posts .post {
   margin-bottom: 1.875em;
 }
-
 main .posts .post .contenedor {
   background: #fff;
-  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
-
 main .posts .post .contenedor .thumb img {
   vertical-align: top;
   width: 100%;
   height: auto;
 }
-
 main .posts .post .contenedor .info {
   padding: 1.25em;
 }
-
 main .posts .post .contenedor .info .titulo {
   line-height: 1.125em;
   margin-bottom: 1.25em;
   font-size: 1.125em;
   font-weight: bold;
 }
-
 main .posts .post .contenedor .info .titulo a {
   color: #3b3b3b;
 }
-
 main .posts .post .contenedor .info .fecha {
   color: #909090;
-  font-size: .875em;
+  font-size: 0.875em;
   margin-bottom: 1.25em;
 }
-
 main .posts .post .contenedor .info .extracto {
   color: #292929;
   font-size: 1em;
@@ -162,45 +138,36 @@ main .posts .post .contenedor .info .extracto {
   line-height: 1.75em;
   overflow: hidden;
 }
-
 main .posts .post .contenedor .info .extracto:hover {
   overflow: auto;
 }
-
 main .posts .post .contenedor .info .categorias ul {
   list-style: none;
 }
-
 main .posts .post .contenedor .info .categorias ul li {
   display: inline-block;
 }
-
 main .posts .post .contenedor .info .categorias a {
   color: #909090;
   font-size: 1em;
   font-weight: bold;
   margin-right: 1.25em;
 }
-
 main .posts .post .contenedor .info .categorias a:hover {
   color: #5f6ad4;
   text-decoration: none;
 }
-
 main .posts .post:nth-child(2n+1) {
   padding-left: 0;
 }
-
 main .posts .post:nth-child(2n) {
   padding-right: 0;
 }
-
 main .paginacion ul {
   list-style: none;
   margin-bottom: 1.25em;
   font-size: 1em;
 }
-
 main .paginacion ul li {
   display: inline-block;
   background: #3b3b3b;
@@ -210,29 +177,24 @@ main .paginacion ul li {
   line-height: 1.125em;
   margin-bottom: 1.25em;
 }
-
 main .paginacion ul li.disabled {
   padding: 0.62em 0.937em;
   font-size: 1.125em;
   line-height: 1.125em;
 }
-
 main .paginacion ul li a {
   background: #5f6ad4;
   color: #fff;
   line-height: 1.125em;
   padding: 0.62em 0.937em;
 }
-
 main .paginacion ul li a:hover {
   background: #7780da;
   text-decoration: none;
 }
-
 main .paginacion .wp-pagenavi {
   margin-bottom: 1.25em;
 }
-
 main .paginacion .wp-pagenavi .pages,
 main .paginacion .wp-pagenavi span {
   background: #3b3b3b;
@@ -242,7 +204,6 @@ main .paginacion .wp-pagenavi span {
   line-height: 1.125em;
   padding: 0.62em 0.937em;
 }
-
 main .paginacion .wp-pagenavi a {
   background: #5f6ad4;
   color: #fff;
@@ -251,7 +212,6 @@ main .paginacion .wp-pagenavi a {
   padding: 0.62em 0.937em;
   margin-right: 0.62em;
 }
-
 main .paginacion .wp-pagenavi a:hover {
   background: #7780da;
   text-decoration: none;
@@ -260,11 +220,9 @@ main .paginacion .wp-pagenavi a:hover {
 aside .widget {
   margin-bottom: 2.5em;
 }
-
 aside .widget.redes-sociales {
   overflow: hidden;
 }
-
 aside .widget.redes-sociales a {
   width: 33.33333%;
   padding: 1.25em;
@@ -273,64 +231,53 @@ aside .widget.redes-sociales a {
   color: #fff;
   float: left;
 }
-
 aside .widget.redes-sociales a:hover {
   text-decoration: none;
 }
-
 aside .widget.redes-sociales a.youtube {
   background: #cc181e;
 }
-
 aside .widget.redes-sociales a.twitter {
   background: #00abf0;
 }
-
 aside .widget.redes-sociales a.facebook {
   background: #3b5998;
 }
-
 aside .widget.redes-sociales a .icono {
   width: 100%;
   font-size: 1.875em;
   margin-bottom: 0.5em;
 }
-
 aside .widget.boletin .formulario {
   background: #0e2b37;
   padding: 1.25em;
   text-align: center;
 }
-
 aside .widget.boletin .formulario label {
   color: #fff;
   margin-bottom: 1.25em;
   display: block;
 }
-
-aside .widget.boletin .formulario input[type="email"] {
+aside .widget.boletin .formulario input[type=email] {
   color: #909090;
   text-align: center;
-  padding: .65em;
+  padding: 0.65em;
   font-size: 1.125em;
   border-radius: 3px;
   width: 100%;
   border: none;
   margin-bottom: 1.25em;
 }
-
-aside .widget.boletin .formulario input[type="submit"] {
+aside .widget.boletin .formulario input[type=submit] {
   background: #48b04d;
   border-radius: 3px;
-  padding: .625em 1.875em;
+  padding: 0.625em 1.875em;
   border: none;
   color: #fff;
 }
-
 aside .widget .contenedor-ad {
   text-align: center;
 }
-
 aside .widget .contenedor-ad a {
   display: inline-block;
 }
@@ -338,33 +285,28 @@ aside .widget .contenedor-ad a {
 footer .menu {
   background: #5f6ad4;
 }
-
 footer .menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 footer .menu ul li {
   display: inline-block;
 }
-
 footer .menu ul li a {
   color: #fff;
   display: inline-block;
   padding: 1em 1.25em;
-  font-size: .87em;
+  font-size: 0.87em;
 }
-
 footer .menu ul li a:hover {
   text-decoration: none;
   background: #7780da;
 }
-
 footer .copyright p {
-  font-size: .87em;
+  font-size: 0.87em;
   color: #000;
-  padding: .625em;
+  padding: 0.625em;
   text-align: center;
   margin: 0;
 }
@@ -400,5 +342,4 @@ footer .copyright p {
   footer .menu ul {
     text-align: center;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
